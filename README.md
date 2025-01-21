@@ -1,6 +1,6 @@
 # rust_cpp_dlopen_crash_bug
 
-### 1. for **android platfrom**
+### 1. for **android platfrom** (ohos is the same)
 
 download ndk first
 [ndk-r25c](https://dl.google.com/android/repository/android-ndk-r25c-linux.zip)
