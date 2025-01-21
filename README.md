@@ -1,8 +1,21 @@
 # rust_cpp_dlopen_crash_bug
 
-### 1. for linux
+### 1. for arm64 linux
 
-### 2. for **android platfrom** (ohos is the same)
+build
+```shell
+sh make-arm64-lnx.sh 
+```
+
+copy `libdylib_hello.so` and `test` to your arm64 server
+
+
+then run on the arm64 server
+```
+./test
+```
+
+### 2. for **android platfrom** (ohos is almostly the same)
 
 download ndk first
 [ndk-r25c](https://dl.google.com/android/repository/android-ndk-r25c-linux.zip)
